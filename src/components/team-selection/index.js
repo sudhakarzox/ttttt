@@ -15,7 +15,7 @@ const sortByName=()=>{
   
   nextList.sort((a,b)=>a.name>b.name?1:-1);
   
-  setPlayers(nextList); 
+  setPlayers(nextList); // not rendering
   console.log(players)
 }
 
